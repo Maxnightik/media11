@@ -1,0 +1,360 @@
+img {
+  width: 100%;
+}
+
+.breadcrambs {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #13120d;
+  padding-top: 230px;
+}
+
+.breadcrambs ul {
+  display: flex;
+  gap: 8px;
+}
+
+.breadcrambs ul li a {
+  color: #13120d;
+}
+
+.article__container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.article__container-title {
+  max-width: 1085px;
+  padding: 0 15px;
+  margin-right: -18px;
+  margin-bottom: 80px;
+}
+
+.article__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #13120d;
+  margin: 30px 0 50px 0;
+}
+
+.article__container-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.article_info {
+  max-width: 273px;
+}
+
+.article_info-image {
+  width: 35px;
+  height: 35px;
+}
+
+.article_info-amount {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #13120d;
+  display: inline;
+  margin-left: 10px;
+}
+
+.article_info-recommandent {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #13120d;
+  display: inline;
+  margin-left: 50px;
+}
+
+.article__recomend-title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: #13120d;
+  margin-top: 35px;
+}
+
+.article__recomend-title p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #13120d;
+}
+
+.article__category {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #13120d;
+}
+
+.article__content {
+  max-width: 725px;
+}
+
+.article__content:after {
+  content: "";
+  display: block;
+  width: 716px;
+  height: 0px;
+  opacity: 0.15;
+  border: 1px solid #000000;
+  margin: 60px auto 0;
+}
+
+.article__content p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.8;
+  color: #13120d;
+}
+.article__social {
+  max-width: 145px;
+}
+
+.article__social li:not(:first-child) {
+  margin: 35px 0;
+}
+
+.article__content_main {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #13120d;
+  width: 725px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-right: 701px;
+}
+
+.article__content_main img {
+  margin-top: 140px;
+}
+
+.article__content_main h4 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #13120d;
+  margin-bottom: 50px;
+}
+
+figcaption {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  color: #13120d;
+  opacity: 0.5;
+  margin: 14px 0 113px 0;
+}
+
+/*   OPINION      */
+
+.opinion {
+  background: #f7f6f4;
+}
+
+.opinion__container h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #13120d;
+  padding-top: 67px;
+}
+
+.opinion-row {
+  display: flex;
+  justify-content: center;
+  column-gap: 86px;
+  padding: 75px 0 104px 0;
+}
+
+.opinion-emodji p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #13120d;
+  margin-top: 10px;
+}
+
+/*  BLOCK READ MORE  */
+
+.read-more {
+  background-image: url(../img/article/read-more/Logo\ seul.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.read-more__title {
+  display: flex;
+  justify-content: center;
+}
+
+.read-more__title img {
+  width: 30px;
+  height: 30px;
+  margin-top: 93px;
+}
+
+.read-more__title h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #13120d;
+  margin: 82px 44px 38px 43px;
+}
+
+.read-more-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+  margin: 0 auto;
+}
+
+.read-more-card img {
+  border-radius: 5px;
+}
+
+.read-more-card {
+  max-width: 395px;
+  background: #ffffff;
+  margin-bottom: 88px;
+}
+
+.read-more-card h5 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13120d;
+  padding: 30px 35px 10px;
+}
+
+.read-more-card p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #13120d;
+  padding: 0 0 30px 35px;
+}
+
+@media (max-width: 1190px) {
+  .article__container,
+  .article__container-title,
+  .article__container-main {
+    width: 900px;
+  }
+  .article__container-title {
+    margin-right: 0;
+  }
+  .article__content_main {
+    margin-right: 113px;
+  }
+}
+
+@media (max-width: 924px) {
+  .article__container,
+  .article__container-title,
+  .article__container-main {
+    width: 100%;
+  }
+  .article__container-main {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .article__content {
+    width: 100%;
+  }
+  .article__content_main {
+    width: 100%;
+    padding: 0 15px;
+    margin-top: 0;
+  }
+  .article_info {
+    margin-bottom: 30px;
+  }
+  .article__social {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 440px) {
+  .article__title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .article__content p {
+    line-height: 1.2;
+  }
+  .article__content_main img {
+    margin-top: 20px;
+  }
+
+  figcaption {
+    margin: 0 0 30px 0;
+  }
+  .article__content_main h4 {
+    margin-bottom: 30px;
+  }
+  .read-more {
+    padding: 0 15px;
+    background-size: auto;
+  }
+  .read-more__title img {
+    width: 101px;
+    height: 53px;
+  }
+}

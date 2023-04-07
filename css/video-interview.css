@@ -1,0 +1,245 @@
+img {
+  width: 100%;
+}
+.page-video-interview {
+  background: #13120d;
+}
+
+.breadcrambs-video {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f7f6f4;
+  padding-top: 30px;
+}
+
+.breadcrambs-video ul {
+  display: flex;
+  gap: 8px;
+}
+
+.breadcrambs-video ul li a {
+  color: #f7f6f4;
+}
+
+.video__main_container {
+  max-width: 1438px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.video__container {
+  max-width: 1086px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.video__title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f6f4;
+  margin: 60px 0 50px 0;
+}
+
+.container-video {
+  max-width: 1438px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 0 15px;
+}
+
+.video__recomend {
+  width: 400px;
+  color: #f7f6f4;
+  display: inline;
+}
+
+.video__recomend img {
+  width: 35px;
+  height: 35px;
+  display: inline;
+}
+
+.video-amount {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f7f6f4;
+  display: inline;
+}
+
+.video__recomend-title {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  color: #f7f6f4;
+}
+
+.video__recomend-title p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #f7f6f4;
+}
+
+.video__category {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #f7f6f4;
+}
+
+.interview {
+  width: 725px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #f7f6f4;
+}
+
+.interview ul {
+  margin: 140px 0;
+  display: flex;
+}
+
+.interview li {
+  margin: 0 15px;
+}
+
+/*  BLOCK READ MORE  */
+
+.video__read-more {
+  background-color: #f7f6f4;
+  background-image: url(../img/article/read-more/Logo\ seul.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.video__read-more__title {
+  display: flex;
+  justify-content: center;
+}
+
+.video__read-more__title img {
+  width: 30px;
+  height: 30px;
+  margin-top: 93px;
+}
+
+.video__read-more__title h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #13120d;
+  margin: 82px 44px 38px 43px;
+}
+
+.video__read-more-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 40px;
+  margin: 0 auto;
+}
+
+.video__read-more-card img {
+  border-radius: 5px;
+}
+
+.video__read-more-card {
+  width: 395px;
+  background: #ffffff;
+  margin-bottom: 88px;
+}
+
+.video__read-more-card h5 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #13120d;
+  padding: 30px 35px 10px;
+}
+
+.video__read-more-card p {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #13120d;
+  padding: 0 0 30px 35px;
+}
+
+@media (max-width: 1064px) {
+  .page {
+    width: 100%;
+  }
+}
+
+@media (max-width: 721px) {
+  .container-video {
+    flex-wrap: wrap;
+  }
+  .video__recomend {
+    margin-bottom: 30px;
+  }
+  .interview ul {
+    margin: 30px 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 440px) {
+  .video__title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+  .video__content p {
+    line-height: 1.2;
+  }
+  .video__content_main img {
+    margin-top: 20px;
+  }
+
+  figcaption {
+    margin: 0 0 30px 0;
+  }
+  .video__content_main h4 {
+    margin-bottom: 30px;
+  }
+  .read-more {
+    padding: 0 15px;
+    background-size: auto;
+  }
+  .read-more__title img {
+    width: 101px;
+    height: 53px;
+  }
+}
